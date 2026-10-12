@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Datasets
+data/
+datasets/
+data_*/
+ck+/
+CK+/
+*.csv
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Generated data
+*.npy
+*.npz
+
+# Secrets
+.env
+.env.*
