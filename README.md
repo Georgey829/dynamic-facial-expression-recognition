@@ -41,7 +41,7 @@ The primary objectives of this research are:
 - Examine the influence of pretrained visual representations.
 - Analyze changes in prediction confidence over time.
 - Investigate when facial expressions can be reliably recognized.
-- Evaluate temporal prediction stability using Trigger Time.
+- Analyze temporal prediction behavior using Trigger Time and Stable Recognition Time.
 
 Rather than focusing exclusively on final classification accuracy,
 this research aims to provide a more detailed understanding of
