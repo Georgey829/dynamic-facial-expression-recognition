@@ -211,6 +211,7 @@ Temporal analysis includes:
 - Temporal confidence evolution
 - Prediction stability
 - Trigger Time
+- Stable Recognition Time
 
 These analyses provide complementary perspectives on
 the performance of dynamic facial expression recognition.
