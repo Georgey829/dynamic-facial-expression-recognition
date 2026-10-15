@@ -74,10 +74,11 @@ conventional image-based FER.
 Experiment A investigates dynamic facial expression recognition
 using sequential facial images.
 
-A CNN extracts spatial features from individual frames,
-while an LSTM models temporal dependencies across the sequence.
+A randomly initialized ResNet18 extracts spatial features
+from individual frames, while an LSTM models temporal
+dependencies across the sequence.
 
-The model is trained without pretrained visual representations.
+The CNN-LSTM model is trained on CK+ without pretrained weights.
 
 This experiment establishes a baseline for evaluating
 temporal facial expression recognition.
