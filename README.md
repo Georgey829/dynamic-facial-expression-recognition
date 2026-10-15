@@ -28,7 +28,7 @@ The research consists of three main components:
 
 A further objective is to analyze temporal prediction behavior,
 including recognition confidence, prediction stability,
-and Trigger Time.
+Trigger Time, and Stable Recognition Time.
 
 ---
 
