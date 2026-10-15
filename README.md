@@ -229,6 +229,9 @@ Main libraries include:
 - NumPy
 - Scikit-learn
 - Matplotlib
+- Pandas
+- Pillow
+- tqdm
 
 The implementation includes data preprocessing,
 model training, evaluation, and temporal prediction analysis.
