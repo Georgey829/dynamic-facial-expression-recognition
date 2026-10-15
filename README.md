@@ -171,6 +171,11 @@ the development of facial expressions over time.
 The dataset is used to investigate temporal recognition
 behavior in dynamic FER experiments.
 
+The dynamic experiments use seven CK+ emotion classes:
+anger, contempt, disgust, fear, happiness, sadness, and surprise.
+Only sequences with one of these emotion labels are included;
+unlabeled sequences and sequences labeled as neutral are excluded.
+
 **Note:** Original datasets are not included in this repository.
 Users must obtain the datasets separately and comply with
 their respective licensing and usage conditions.
