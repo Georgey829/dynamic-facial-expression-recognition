@@ -61,8 +61,9 @@ The static FER component investigates facial expression
 classification using individual facial images.
 
 An ImageNet-pretrained ResNet18 is used for static facial
-expression recognition on FER2013. Its final fully connected
-layer is replaced with a classifier for the seven emotion classes.
+expression recognition. Its final fully connected layer is
+replaced with a classifier whose output size matches the
+number of classes in the training data.
 
 This experiment serves as a reference point for understanding
 conventional image-based FER.
