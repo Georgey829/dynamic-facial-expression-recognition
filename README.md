@@ -126,16 +126,20 @@ temporary predictions and sustained recognition.
 The analysis considers how predicted emotion labels change
 throughout a sequence.
 
-### 4.3 Trigger Time
+### 4.3 Trigger Time and Stable Recognition Time
 
-Trigger Time is introduced as a temporal evaluation measure
-for investigating when stable recognition is achieved.
+Trigger Time is the time point at which the predicted probability
+of the target emotion (the ground-truth class) shows the largest
+increase between consecutive frames. It describes the strongest
+increase in confidence in the target emotion and does not necessarily
+indicate correct or stable recognition.
 
-The measure focuses on the timing of sustained correct
-recognition rather than only the final prediction.
+Stable Recognition Time is the earliest frame from which the target
+emotion remains the highest-probability class through the end of the
+sequence. If no such frame exists, Stable Recognition Time is recorded as NaN.
 
-This provides an additional perspective on the temporal
-behavior of facial expression recognition models.
+Together, these measures distinguish the timing of the largest probability
+increase from the onset of sustained correct recognition.
 
 ---
 
