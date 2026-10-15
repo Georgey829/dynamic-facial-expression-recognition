@@ -60,8 +60,9 @@ The project consists of three experimental components.
 The static FER component investigates facial expression
 classification using individual facial images.
 
-A ResNet18-based convolutional neural network is employed
-to extract visual features and classify facial expressions.
+An ImageNet-pretrained ResNet18 is used for static facial
+expression recognition on FER2013. Its final fully connected
+layer is replaced with a classifier for the seven emotion classes.
 
 This experiment serves as a reference point for understanding
 conventional image-based FER.
