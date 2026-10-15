@@ -88,8 +88,10 @@ temporal facial expression recognition.
 Experiment B investigates whether pretrained visual features
 improve dynamic facial expression recognition.
 
-Pretrained visual representations are incorporated into
-the CNN-LSTM framework.
+An ImageNet-pretrained ResNet18 is used to extract visual
+features from each frame. The parameters of its earlier layers
+are frozen, while the final residual block (layer4), LSTM,
+and classification layer are trained on CK+.
 
 The experiment examines their influence on classification
 performance and temporal prediction behavior.
