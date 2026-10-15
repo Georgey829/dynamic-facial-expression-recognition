@@ -61,9 +61,9 @@ The static FER component investigates facial expression
 classification using individual facial images.
 
 An ImageNet-pretrained ResNet18 is used for static facial
-expression recognition. Its final fully connected layer is
-replaced with a classifier whose output size matches the
-number of classes in the training data.
+expression recognition on FER2013. Its final fully connected
+layer is replaced with a classifier whose output size matches
+the number of classes in the training data.
 
 This experiment serves as a reference point for understanding
 conventional image-based FER.
@@ -286,6 +286,13 @@ After obtaining CK+ and configuring the local paths:
 
 Experiments A and B share the prepared data splits, but each uses its
 own training and evaluation scripts.
+
+### Static Experiment Workflow
+
+1. Obtain FER2013 and organize the images into class-specific subfolders for training and testing.
+2. Update the dataset paths in `static_fer/train_resnet18.py` and `static_fer/evaluate_resnet18.py` to match your local setup.
+3. Run `static_fer/train_resnet18.py` to train the static model.
+4. Check that the checkpoint path in `static_fer/evaluate_resnet18.py` points to the saved model, then run the evaluation script.
 
 ---
 
