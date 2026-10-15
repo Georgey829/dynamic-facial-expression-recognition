@@ -152,6 +152,12 @@ increase from the onset of sustained correct recognition.
 The research uses facial expression datasets for static
 and dynamic recognition experiments.
 
+The preparation script uses a subject-independent split,
+assigning approximately 70% of subjects to training, 15% to
+validation, and 15% to testing with a fixed random seed of 42.
+All sequences from the same subject remain in a single split.
+Experiments A and B use the same split CSV files.
+
 ### FER2013
 
 FER2013 contains grayscale facial expression images
