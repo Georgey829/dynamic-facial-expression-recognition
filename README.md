@@ -244,7 +244,11 @@ The repository provides research code for the three
 experimental components.
 
 The original datasets and trained model weights are
-not distributed in this repository.
+not distributed in this repository. The Experiment A
+and Experiment B scripts currently use ~/ Desktop /
+FER_project as their working directory. Before
+running these scripts, check and update the dataset,
+checkpoint, and output paths to match your local setup.
 
 Detailed environment configuration, dataset preparation,
 and execution instructions will be added as the repository
